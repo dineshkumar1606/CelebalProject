@@ -1,3 +1,4 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 streamlit
 python-dotenv
 tqdm
@@ -20,4 +21,3 @@ ragas
 protobuf
 typing-extensions
 torch
-torchvision
