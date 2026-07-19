@@ -5,6 +5,7 @@ tqdm
 langchain
 langchain-community
 langchain-core
+langchain-classic
 langchain-text-splitters
 langchain-google-genai
 langchain-groq
