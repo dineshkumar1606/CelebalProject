@@ -1,9 +1,3 @@
-"""
---------------------------------------------------
-Smart Research Assistant
-Final Streamlit Interface
---------------------------------------------------
-"""
 import os
 import streamlit as st
 from dotenv import load_dotenv
@@ -41,7 +35,6 @@ def initialize_components():
     retriever = get_advanced_retriever(vector_store, llm)
     return vector_store, llm, retriever
 
-# Cleaned up to prevent resource unpacking errors
 vector_store, llm, retriever = initialize_components()
 
 # HEADER
@@ -50,6 +43,7 @@ st.title("Smart Research Assistant")
 st.caption(f"Version {APP_VERSION} | Advanced Retrieval Augmented Generation Research Platform")
 st.success("Knowledge Base Active")
 st.info("Advanced RAG Pipeline Active")
+st.info("Upload your documents in controls section")
 
 # SIDEBAR
 with st.sidebar:
@@ -64,13 +58,15 @@ with st.sidebar:
     st.divider()
     st.header("Controls")
     uploaded_files = st.file_uploader("Upload Documents", type=["pdf", "txt", "docx"], accept_multiple_files=True)
+    
     if st.button("Clear Chat History"):
         st.session_state.chat_history = clear_history()
         st.success("Chat History Cleared Successfully.")
+        
     if st.button("Reset Knowledge Base"):
         try:
             reset_collection()
-            initialize_components.clear()  # Clears Streamlit cache to force reconstruction of a fresh retriever
+            initialize_components.clear()
             st.session_state.chat_history = []
             st.session_state.last_report = None
             st.success("Knowledge Base Reset Successfully.")
