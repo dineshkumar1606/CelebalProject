@@ -1,6 +1,3 @@
-"""
-Conversation Memory Management
-"""
 
 # SAVE CONVERSATION
 def save_conversation(history: list, question: str, response: str, confidence: float, status: str):

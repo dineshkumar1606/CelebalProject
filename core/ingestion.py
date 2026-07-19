@@ -1,20 +1,4 @@
-"""
---------------------------------------------------
-Smart Research Assistant
-Document Ingestion Layer
-
-Responsibilities
-----------------
-1. Document Validation
-2. Document Loading
-3. Chunk Creation
-4. Knowledge Base Indexing
-5. Analytics Generation
-6. Graceful Failure Handling
---------------------------------------------------
-"""
 from typing import Dict, List
-
 from core.loader import load_document, get_document_statistics
 from core.chunking import create_chunks, get_chunk_statistics
 from core.vector_store import add_documents, get_collection_statistics

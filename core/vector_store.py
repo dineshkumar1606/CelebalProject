@@ -1,18 +1,3 @@
-"""
---------------------------------------------------
-Knowledge Base(Vector Store)
-Responsibilities
-----------------
-1. Collection Management
-2. Persistent Storage
-3. Document Indexing
-4. Embedding Generation
-5. Collection Analytics
-6. Duplicate Detection
-7. Collection Management
-8. Error Handling
--------------------------------------------------
-"""
 from typing import Dict, List
 from langchain_core.documents import Document
 from langchain_chroma import Chroma

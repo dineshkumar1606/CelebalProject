@@ -1,9 +1,3 @@
-"""
---------------------------------------------------
-Smart Research Assistant
-Pipeline Management Layer
---------------------------------------------------
-"""
 import time
 from typing import Dict
 from core.retriever import retrieve_context

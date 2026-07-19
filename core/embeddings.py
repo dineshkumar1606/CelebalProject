@@ -1,16 +1,3 @@
-"""
-Smart Research Assistant
-Embedding Management Layer
-
-Responsibilities
-----------------
-1. Embedding Generation
-2. Model Management
-3. Embedding Validation
-4. Analytics Support
-5. Dimension Extraction
-6. Error Handling
-"""
 from typing import Dict
 from langchain_huggingface import HuggingFaceEmbeddings
 from config import EMBEDDING_MODEL, EMBEDDING_DIMENSIONS

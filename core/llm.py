@@ -1,16 +1,3 @@
-"""
-Smart Research Assistant
-Generation Layer
-
-Responsibilities
-----------------
-1. Model Initialization
-2. Response Generation
-3. Prompt Validation
-4. Failure Handling
-5. Response Analytics
-6. Response Validation
-"""
 import time
 from typing import Dict
 from langchain_groq import ChatGroq

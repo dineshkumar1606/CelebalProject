@@ -1,17 +1,3 @@
-"""
----------------------------------------------------
-Smart Research Assistant
-Chunk Management Layer
-Responsibilities
-----------------
-1. Chunk Creation
-2. Metadata Preservation
-3. Sliding Window Chunking
-4. Chunk Validation
-5. Chunk Statistics
-6. Chunk Numbering
----------------------------------------------------
-"""
 import uuid
 from typing import List
 from typing import Dict

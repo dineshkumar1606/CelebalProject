@@ -1,18 +1,3 @@
-"""
---------------------------------------------------
-Smart Research Assistant
-Document Management Layer
-Responsibilities:
------------------
-1. File Validation
-2. Document Loading
-3. Metadata Preservation
-4. Document Statistics
-5. Duplicate Detection
-6. Content Validation
-7. Error Handling
---------------------------------------------------
-"""
 import os
 import hashlib
 from typing import List, Dict

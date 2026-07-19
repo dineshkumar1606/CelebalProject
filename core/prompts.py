@@ -1,14 +1,3 @@
-"""
-Prompt Engineering Layer
-Responsibilities
-----------------
-1. Prompt Construction
-2. Context Management
-3. Hallucination Prevention
-4. No Answer Strategy
-5. Summary Generation
-6. Source Grounding
-"""
 from typing import List
 from langchain_core.documents import Document
 from config import APP_NAME, MAX_CONTEXT_CHARACTERS

@@ -1,12 +1,3 @@
-"""
-Smart Research Assistant
-Evaluation Layer
-
-1. Faithfulness
-2. Answer Relevance
-3. Context Precision
-4. Graceful Failure Handling
-"""
 import json
 from typing import Dict
 from config import ENABLE_RAGAS, MINIMUM_RESPONSE_LENGTH, INSUFFICIENT_CONTEXT_RESPONSE

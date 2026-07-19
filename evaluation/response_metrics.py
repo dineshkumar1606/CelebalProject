@@ -1,9 +1,3 @@
-"""
---------------------------------------------------
-Smart Research Assistant
-Response Analytics Layer
---------------------------------------------------
-"""
 from typing import Dict
 #          RESPONSE STATISTICS
 def get_response_metrics(

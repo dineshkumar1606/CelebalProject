@@ -1,9 +1,3 @@
-"""
---------------------------------------------------
-Smart Research Assistant
-Confidence Score Layer
---------------------------------------------------
-"""
 from typing import Dict
 from config import RAGAS_WEIGHT, RETRIEVAL_WEIGHT, SOURCE_WEIGHT, RESPONSE_WEIGHT
 # RESPONSE QUALITY SCORE

@@ -1,19 +1,3 @@
-"""
---------------------------------------------------
-Smart Research Assistant
-Retrieval Management Layer
-
-Responsibilities
-----------------
-1. Query Retrieval
-2. Multi Query Retrieval
-3. History Aware Retrieval
-4. Similarity Search
-5. Graceful Failure Handling
-6. Retrieval Analytics
-7. Context Retrieval
---------------------------------------------------
-"""
 import time
 from typing import List, Dict, Optional
 from langchain_core.documents import Document
